@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+
+}
+.Nav1{
+
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+
+}
