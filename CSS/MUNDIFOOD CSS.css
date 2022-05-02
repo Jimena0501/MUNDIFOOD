@@ -1,15 +1,43 @@
-h1{
-    text-align: center;
-    font-size: 80px;
 
+p{
+    text-justify: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: italic;
 }
-.Nav1{
-
+#Title1{
+    text-align: center;
+    font-size: 80px; 
+    background-image: linear-gradient(50deg,black,green,yellow,orange,red,white);
+    background-size: 400%;
+    animation: bganimation ease-in-out 160s infinite;
+    margin: 0;
+    padding: 0;
+}
+@keyframes bganimation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 10%;
+    }
+}
+#Nav1{
+    background-color: gray;
+    height: 70px;
+    width: auto;
+    position: relative;
+    right: 400px;
+    text-align: center;
     list-style-type: none;
     margin: 0px;
     overflow: hidden;
     top: 0px;
     position: -webkit-sticky;
     position: sticky;
-
+}
+li{
+    list-style-type: none                     ;
 }
