@@ -153,5 +153,79 @@ p{
     opacity: 1;
 }
 
+/*Menu de paises*/
 
-  
+#Asia{
+    text-align: center;
+    font-size: xx-large;
+}
+#Asia h2,h3{
+    background-color: rgb(255, 127, 127);
+    color: aliceblue;
+}
+.paisAsi{
+    background-color: red;
+    color: aliceblue;
+}
+
+/*JAPON*/
+
+.Ramen{
+    width: auto;
+    height: 250px;
+    background-color: aqua;
+    padding: 10px;
+}
+.Ramen h4{
+    size: 400px;
+}
+.Udon{
+    width: auto;
+    height: 250px;
+    background-color: rgb(0, 172, 172);
+    padding: 10px;
+}
+.Gyoza{
+    width: auto;
+    height: 250px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+/*CHINA*/
+
+.Dumpligs{
+    width: auto;
+    height: 250px;
+    background-color: rgb(0, 172, 172);
+    padding: 10px;
+}
+.SopaWonton{
+    width: auto;
+    height: 250px;
+    background-color: aqua;
+    padding: 10px;
+}
+.CharSiu{
+    width: auto;
+    height: 250px;
+    background-color: rgb(0, 172, 172);
+    padding: 10px;
+}
+
+/*Imagenes*/
+.imgA{
+    position: relative;
+    right: 1200px;
+    bottom: 160px;
+    border-radius: 100%;
+}
+.imgB{
+    border-radius: 100%;
+    position: relative;
+    left: 1200px;
+    bottom: 170px;
+}
+/*EUROPA*/
+
+ 
