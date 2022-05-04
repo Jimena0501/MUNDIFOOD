@@ -9,9 +9,11 @@ p{
     font-size: 80px; 
     background-image: linear-gradient(50deg,black,green,yellow,orange,red,white);
     background-size: 400%;
-    animation: bganimation ease-in-out 160s infinite;
+    animation: bganimation ease-in-out 280s infinite;
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
 }
 @keyframes bganimation{
     0%{
@@ -25,19 +27,26 @@ p{
     }
 }
 #Nav1{
-    background-color: gray;
-    height: 70px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
     width: auto;
     position: relative;
-    right: 400px;
+    left: 10px;
     text-align: center;
-    list-style-type: none;
-    margin: 0px;
-    overflow: hidden;
-    top: 0px;
-    position: -webkit-sticky;
-    position: sticky;
+    margin: 0 10px 0 0;
+    padding: 10px;
 }
 li{
-    list-style-type: none                     ;
+    float: left;
 }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+a:hover{
+    color: yellow;
+}  
+  
